@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Should match snapshot 1`] = `
+<footer
+  className="footer-custom "
+>
+  <div>
+    <ul
+      className="flex justify-center text-blue-200 py-1 items-center"
+    >
+      <li>
+        Made by
+        <a
+          className="text-blue-400"
+          href="https://github.com/captainrun"
+          rel="noreferrer"
+          target="_blank"
+        >
+           @CaptainRun
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+`;

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+}
+
+
+.counter-name {
+    background: -webkit-linear-gradient(#eee, rgba(102, 44, 189, 0.76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter-value {
+    background: -webkit-linear-gradient(#aabfff, rgba(255, 255, 255, 0.76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rocket:hover {
+    animation: rocket-animation 5s linear infinite;
+}
+@keyframes rocket-animation {
+    0% {
+        transform: rotateZ(0deg) scale(1);
+
+    }
+    25% {
+        transform: rotateZ(10deg) rotateX(15deg);
+
+    }
+    50% {
+        transform: rotateZ(0deg) rotateX(0deg) scale(1.1);
+    }
+
+    75% {
+        transform: rotateZ(-10deg) rotateX(-15deg);
+
+    }
+    100% {
+        transform: rotateZ(0deg) scale(1);
+    }
+}

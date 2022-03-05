@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .hover-scale-110 {
+        @apply transition-transform hover:scale-110;
+    }
+
+    .text-announce {
+        @apply text-5xl select-none hover-scale-110 mt-20
+    }
+
+    .text-announce {
+
+        background: -webkit-linear-gradient(#aabfff, rgba(255, 255, 255, 0.76));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@layer components {
+    .header {
+        @apply shadow shadow-third-darker shadow-lg select-none
+    }
+
+    .btn {
+        @apply mt-2  text-sm shadow-third-darker shadow-lg select-none rounded-full py-2 px-4
+        hover:cursor-pointer hover:hover-scale-110
+    }
+
+    .launch-card {
+        @apply flex flex-col justify-center items-center w-full h-full shadow-lg rounded-lg p-4 bg-opacity-25 bg-third-darker
+    }
+
+    .link {
+        @apply transition ease-in-out hover:scale-110;
+    }
+
+    .link-lighted {
+        @apply link font-black text-xl  tracking-wide
+    }
+}
+
+.main-container {
+    @apply w-[90%] mt-12 text-center text-font mx-auto min-h-[80vh] mb-20
+}
+
+.home-container {
+    @apply main-container grid  md:grid-cols-2 rounded-2xl overflow-hidden shadow-lg shadow-third-darker
+}
+
+.mission-container {
+    @apply md:bg-gradient-to-r bg-gradient-to-b  from-secondary to-third-darker flex flex-col justify-center space-y-4 p-4
+}
+
+.page-title {
+    @apply text-4xl hover-scale-110 font-bold select-none xl:text-5xl
+}
+
+.counter {
+    @apply flex flex-col pt-4 justify-center space-y-4 select-none
+}
+
+
+.counter-element {
+    @apply flex flex-col items-center justify-center   hover-scale-110
+}
+
+.counter-value {
+    @apply flex justify-center items-center text-6xl
+}
+
+.counter-name {
+    @apply text-center text-base font-bold tracking-wide
+}
+
+
+.info-panel {
+    @apply grid grid-rows-6 justify-center items-center bg-third-darker
+}
+
+.favorites-wrapper {
+    @apply flex flex-col justify-center items-center w-full    h-full
+}
+
+.favorites-container {
+    @apply xs:grid-cols-2 grid h-full grid-cols-1 space-x-4 space-y-2 max-h-[400px]
+}
+
+
+.footer-custom {
+    @apply -z-10 justify-self-end py-1 text-base w-full box-border bg-third-darker absolute bottom-0 left-0
+}
+
+
+::-webkit-scrollbar {
+    @apply w-[2px] h-[4px]
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-purple-900
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-purple-600
+}
+
+.rocket {
+    @apply w-1/4 transition-transform hover:scale-110
+}
+
+.upcoming-container {
+    @apply grid grid-cols-1 place-items-center mt-5 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+}
+
+.modal-container {
+    @apply absolute w-full h-full bg-opacity-25 bg-third-darker z-20 grid place-content-center bottom-0 left-0
+}
+
+.modal-card {
+    @apply w-[80%] left-[10%] md:left-[30%] md:w-[40%] h-64 fixed top-20 flex flex-col justify-evenly text-center items-center rounded-lg p-4  bg-secondary
+}
+
+.modal-body {
+    @apply flex flex-col  justify-center items-center space-y-8
+}

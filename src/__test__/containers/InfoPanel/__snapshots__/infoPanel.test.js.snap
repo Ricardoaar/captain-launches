@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoPanel should match snapshot 1`] = `
+<section
+  className="info-panel"
+>
+  <h1>
+    Cats
+  </h1>
+</section>
+`;

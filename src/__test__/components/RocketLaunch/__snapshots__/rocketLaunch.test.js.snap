@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match the snapshot Should match the snapshot 1`] = `
+<div
+  className="select-none relative flex flex-col justify-center items-center"
+>
+  <img
+    alt="Rocket Launch"
+    className="rocket"
+    src="https://developers.google.com/web/fundamentals/design-and-ux/responsive/img/html5.svg?hl=es"
+  />
+  <span
+    className="rocket-mission"
+  >
+    Save the world
+  </span>
+  <span
+    className="rocket-date"
+  >
+    12/31/2018, 6:00:00 PM
+  </span>
+  <div
+    className="w-100 flex justify-center"
+  />
+</div>
+`;
