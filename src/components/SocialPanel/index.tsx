@@ -12,7 +12,7 @@ import {
 
 const SocialPanel: React.FC = () => {
   const commonProps = {
-    url: "https://github.com/captainrun",
+    url: "https://captain-launches.vercel.app/",
     windowWidth: 560,
     windowHeight: 400,
   };
@@ -25,7 +25,7 @@ const SocialPanel: React.FC = () => {
   return (
     <div className="grid grid-cols-4 place-items-center w-full mt-10">
       <div className="hover-scale-110">
-        <FacebookShareButton {...commonProps} quote="Hi" hashtag="#Ubidots">
+        <FacebookShareButton {...commonProps} quote="Visit this awesome website!" >
           <FacebookIcon {...iconsProps} />
         </FacebookShareButton>
       </div>
