@@ -2,7 +2,7 @@
 
 This project show you when are the next space-x launches.
 
-*Live test on vercel:*
+*Live test on vercel:* [Website](https://captain-launches-l7chqj22m-captainrun.vercel.app/)
 
 
 ### Install 
